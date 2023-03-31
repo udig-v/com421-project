@@ -18,6 +18,11 @@ a:hover {
   border-bottom: 1px solid #000000;
 }
 
+figure {
+  display: block;
+  text-align: center;
+}
+
 figcaption {
   font-style: italic;
 }
@@ -25,7 +30,9 @@ figcaption {
 /* Header styles */
 header {
   background-color: #f0f0f0;
-  padding: 10px;
+  padding: 20px;
+  margin-left: 210px;
+  margin-top: 52px;
 }
 
 header h1 {
@@ -33,37 +40,120 @@ header h1 {
   font-size: 36px;
 }
 
-/* Navigation styles */
-nav {
+/* Navigation styles at the top of the page*/
+.topnav {
   background-color: #ff0000;
   color: #fff;
   padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 210px;
+  right: 0;
 }
 
-nav ul {
+.topnav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-nav li {
+.topnav li {
   display: inline-block;
   margin-right: 20px;
 }
 
-nav a {
+.topnav a {
   color: #fff;
   text-decoration: none;
 }
 
-nav a:hover {
+.topnav a:hover {
   text-decoration: underline;
 }
+
+
+/* Navigation styles to the side of the page*/
+.sidenav {
+  display: flex;
+  position: fixed;
+  float: left;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 100%;
+  background-color: #ff0000;
+  padding: 20px;
+  vertical-align: center;
+}
+
+.topofnav {
+  margin-top: -10px;
+}
+
+.sidenav ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.sidenav a {
+  display: block;
+  padding: 3px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: -30px;
+  font-size: 12px; 
+}
+
+.sidenav a:hover {
+  background-color: #ccc;
+}
+
+.sidenav ul ul li {
+  font-size: 8px;
+}
+
+.line2 {
+  border-top: 2px solid #ffffff;
+}
+
+
+.sidenavofdata {
+  display: flex;
+  position: fixed;
+  float: left;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 100%;
+  background-color: #ff0000;
+  padding: 20px;
+  vertical-align: center;
+}
+
+.sidenavofdata ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.sidenavofdata a {
+  display: block;
+  padding: 3px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: -30px;
+  font-size: 15px; 
+}
+
+.sidenavofdata a:hover {
+  background-color: #ccc;
+}
+
 
 
 /* Main content styles */
 main {
   margin: 20px;
+  margin-left: 220px;
 }
 
 
@@ -98,6 +188,7 @@ aside {
 /* Footer styles */
 footer {
   background-color: #f0f0f0;
+  margin-left: 210px;
   padding: 10px;
   text-align: center;
 }

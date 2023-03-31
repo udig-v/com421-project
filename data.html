@@ -8,7 +8,11 @@
     </head>
 
     <body>
-        <nav>
+        <header>
+            <h1>How to organize and analyze research data</h1>
+        </header>
+
+        <nav class="topnav">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./template.html">Topic</a></li>
@@ -21,10 +25,15 @@
                 <li><a href="./template.html">Professionalization</a></li>
             </ul>
         </nav>
-        
-        <header>
-            <h1>How to organize and analyze research data</h1>
-        </header>
+
+        <nav class="sidenavofdata">
+            <ul class="topofnav">
+                <li><a href="#1">Format Data for Analysis</a></li>
+                <li><a href="#2" class="line2">Run Descriptive Statistics</a></li>
+                <li><a href="#3" class="line2">Run Inferential Statistics</a></li>
+                <li><a href="#4" class="line2">Quiz</a></li>
+            </ul>
+        </nav>
 
         <main>
             <aside>
@@ -52,8 +61,8 @@
                 </ul>
             </div>
 
-            <div class="module">
-                <h2>Format data for analysis</h2>
+            <div class="module" id="1">
+                <h2>Format Data for Analysis</h2>
                 <p>Make sure the computer you are working on has Microsoft Excel installed. Open the document ToolBox_DataLesson.xls in Excel and follow along with the lesson, taking action as instructed.
                 <br>In the Raw_Dataset spreadsheet, the name of each variable has been entered in the first row of each column.</p>
                 <ol>
@@ -97,13 +106,13 @@
                 </ol>
 
                 <figure>
-                    <img src="./images/illustrations/datalesson_fig3 (1).png">
+                    <img src="./images/illustrations/datalesson_fig3(1).png">
                     <figcaption>Tutorial type, gender, experience, and task categorical values have been formatted as dichotomous variables.</figcaption>
                 </figure>
             </div>
 
-            <div class="module">
-                <h2>Run descriptive statistics</h2>
+            <div class="module" id="2">
+                <h2>Run Descriptive Statistics</h2>
                 <aside>
                     <b>Analyzing descriptive statistics may lead you to ask new questions. For example, <em>perc_enjoy</em> is much higher on average than <em>perc_usefulness</em>, which also has a large variance. This suggests that a segment of users may not have considered the system useful even though they enjoyed using it.</b>
                 </aside>
@@ -129,8 +138,8 @@
                 </figure>
             </div>
 
-            <div class="module">
-                <h2>Run inferential statistics</h2>
+            <div class="module" id="3">
+                <h2>Run Inferential Statistics</h2>
                 <p>Open PASW and upload the spreadsheet. (IIT labs in Stuart Building, room 112, have PASW. You can also download a 30-day free trial).</p>
 
                 <ol>
@@ -179,7 +188,7 @@
                 </figure>
             </div>
 
-            <div class="module">
+            <div class="module" id="4">
                 <h3 class="line">Test your knowledge</h3>
                 <p>Now that you've finished the lesson, please complete a short quiz to test your understanding of formatting research datasets for comprehensive statistical analysis.</p>
             </div>

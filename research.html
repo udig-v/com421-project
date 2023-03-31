@@ -8,7 +8,11 @@
     </head>
 
     <body>
-        <nav>
+        <header>
+            <h1>Realistic Research: University, Web-based, and Local Resources</h1>
+        </header>
+
+        <nav class="topnav">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./template.html">Topic</a></li>
@@ -22,16 +26,48 @@
             </ul>
         </nav>
 
-        <header>
-            <h1>Realistic Research: University, Web-based, and Local Resources</h1>
-        </header>
+        <nav class="sidenav">
+            <ul class="topofnav">
+                <li><a href="#1">Content Areas</a></li>
+                <li><a href="#2" class="line2">Getting Started</a></li>
+                <ul>
+                    <li><a href="#2a">Accessing Library Services</a></li>
+                    <li><a href="#2b">Using myIIT to Access the Library Website</a></li>
+                </ul>
+                <li><a href="#3" class="line2">Research Timelines</a></li>
+                <ul>
+                    <li><a href="#3a">Formulating a Timeline</a></li>
+                    <li><a href="#3b">Case Study: Example of a Research Timeline</a></li>
+                    <li><a href="#3c">Determining the Best Way to Obtain Resources</a></li>
+                </ul>
+                <li><a href="#4" class="line2">Requesting Resources</a></li>
+                <ul>
+                    <li><a href="#4a">Requesting Articles</a></li>
+                    <li><a href="#4b">Requesting a Book From Another Library</a></li>
+                    <li><a href="#4c">Case Study: Searching and Requesting Resources</a></li>
+                </ul>
+                <li><a href="#5" class="line2">Local Libraries</a></li>
+                <ul>
+                    <li><a href="#5a">Case Study: Obtaining a Resource from an I-Share Library</a></li>
+                    <li><a href="#5b">When to Use Local Library Resources Instead of Interlibrary Loan</a></li>
+                </ul>
+                <li><a href="#6" class="line2">Internet Resources</a></li>
+                <ul>
+                    <li><a href="#6a">Some Resources to Consider</a></li>
+                    <li><a href="#6a">Using Web Resources for Research</a></li>
+                    <li><a href="#6a">Case Study: Using Web Resources
+                    </a></li>
+                </ul>
+                <li><a href="#7" class="line2">Quiz</a></li>
+            </ul>
+        </nav>
 
         <main>
             <div class=module>
                 <p>This lesson is meant for students who must begin research in their first semester of the TCID, IA, or the Ph.D. in Technical Communication program who want to develop, improve, or refresh their research skills. Additionally, this lesson is designed to give students strategies which will help them research more efficiently.</p>
             </div>
 
-            <div class="module">
+            <div class="module" id="1">
                 <h2>Content Areas</h2>
                 <p>This lesson will help you learn to acquire research resources through a review of the following areas:</p>
                 <ul>
@@ -68,16 +104,16 @@
                 <p>After you read the above sections, you will be directed to a short quiz which will help you reflect on the strategies presented in this lesson.</p>
             </div>
 
-            <div class="module">
+            <div class="module" id="2">
                 <h2>Getting Started</h2>
                 <section>
-                    <h3 class="line">Accessing Library Services</h3>
+                    <h3 class="line" id="2a">Accessing Library Services</h3>
                     <p>If you are a newly admitted student and you have not obtained an IIT Hawk Card, details for doing so can be found at the Hawk Card Homepage. You will need your Hawk Card number to access some library services</p>
                     <p>Even if you don't have a Hawk Card, you can still access online journals and perform all of the search functions through the library website. You will only need your Hawk Card to check out materials in person at the Galvin Library or request materials through interlibrary loan. Let's take a look at how to get started.</p>
                 </section>
 
                 <section>
-                    <h3 class="line"><br>Using myIIT to Access the Library Website</h3>
+                    <h3 class="line" id="2b"><br>Using myIIT to Access the Library Website</h3>
                     <p>Although you can search for research materials through the library website directly, the best way to access the library website is to first log on to myIIT. Once you are logged in, you will see a link to "Library Resources." Try logging in, and clicking on that link.</p>
                     <figure>
                         <img src="./images/illustrations/research2.jpg" alt="The Library Services icon leads you to the library search website.">
@@ -89,12 +125,12 @@
                 </section>
             </div>
 
-            <div class="module">
+            <div class="module" id="3">
                 <h2>Research Timelines</h2>
-                <section>
-                    <h3 class="line">Formulating a timeline</h3>
+                <section id="formulatingtimeline">
+                    <h3 class="line" id="3a">Formulating a Timeline</h3>
                     <p>It is important to first consider your due date when thinking about requesting resources. You must have enough time to read the material, integrate it into your project or paper, and still have time to finish your assignment. In general, consider this formula when determining whether it is realistic to use a resource for your paper:</p>
-                    <b>Time to obtain resource + Time to read resource + Time to integrate resource into your project &#60 Remaining time before deadline</b>
+                    <b>Time to obtain resource + Time to read resource + Time to integrate resource into your project &#60; Remaining time before deadline</b>
                     <p>Let's unpack some of those terms</p>
                     <ul>
                         <li><b>Time to obtain resource</b>: How long will it take for the resource to arrive via interlibrary loan? -or- How long will it take for you to physically obtain the resource?</li>
@@ -108,16 +144,15 @@
                         <b>Don't assume that you can read an entire scholarly book in one day. You're only fooling yourself and wasting your precious time if you try to obtain resources that you can't possibly hope to read within your research timeline.</b>
                     </aside>
                     
-                    <h3 class="line"><br>Case Study: Example of a Research Timeline</h3>
+                    <h3 class="line" id="3b"><br>Case Study: Example of a Research Timeline</h3>
                         <p>Bridgette is a graduate student in the Tech Comm program who has been assigned a literature review and research paper for a graduate course. She's decided to research the development of technical communication as a field between the beginning of the twentieth century up to World War II.
                         <br><br>Her first move is to begin researching by logging into myIIT and searching for articles using scholarly databases like EBSCO and JSTOR. After conducting some research, she finds several articles that are pertinent to her search topic, but are not available as a .pdf download through those databases. She knows that she must decide whether it is worthwhile for her to request those resources or to move on and look for resources that are more easily available. To do this, she constructs a research timeline.
                         <br><br>Having conducted research projects before, she knows that she need not write down her timeline, but she decides to set reasonable goals and record them in her Google calendar so that she has an idea of when certain elements of her project should be completed. She first concludes that she has started with plenty of time to request any resources that she needs to complete the project, and that she will have sufficient time to wait for resources to arrive, read them, and incorporate what she has learned into her paper before she must turn in her final copy. She decides to read these articles when they arrive, and then expand her research to cover her topic as appropriate.
                         </p>
-                    </h3>
-                </secion>
+                </section>
 
-                <section>
-                    <h3 class="line"><br>Determining the best way to obtain resources</h3>
+                <section id="bestwayresources">
+                    <h3 class="line" id="3c"><br>Determining the Best Way to Obtain Resources</h3>
                     <p>Even if you can obtain a resource, that doesn't mean you necessarily should spend your time doing so. Be sure to preview a resource by reading a book review or previewing the book on Google Books to make sure that it is valuable enough to obtain. If you have determined that it is feasible and worthwhile to obtain a resource within the timeline you have developed, you must next consider how to obtain that resource.</p>
                     <p>In general, the safest way to obtain resources is to physically obtain a copy yourself. However, that is often inconvenient, impractical, or unnecessary. In cases such as those, interlibrary loan or MyILL is your best option. However, interlibrary loan can take time. Consider these guidelines when requesting your resource through interlibrary loan or MyILL.</p>
                     <ul>
@@ -125,30 +160,30 @@
                         <li><b>The proximity of the lending library to your location</b><br>In the case of MyILL, articles are delivered exclusively online. However, if you are using WorldCat, your lending library may be located in Wisconsin, or it may be located in Canada, or Bulgaria, or Hong Kong. While chapters might be sent electronically, it takes time for books to be delivered from WorldCat libraries. Check the location of the lending library and take it into consideration when requesting materials from WorldCat.</li>
                         <li><b>The possibility that your materials may not arrive before your deadline</b>Can you complete your project without these materials? If you are still in the planning or topic selection phase, check for these materials and consider whether you will have enough time to utilize them in your project. If not, it would be wise to consider an alternative topic.</li>
                     </ul>
-                </sectioniv>
+                </section>
             </div>
 
-            <div class="module">
+            <div class="module" id="4">
                 <h2>Requesting Resources</h2>
-                <section>
-                    <h3 class="line">Requesting Articles</h3>
+                <section id="requestingarticles">
+                    <h3 class="line" id="4a">Requesting Articles</h3>
                     <p>Occasionally, you will notice that some articles are not available for download as a .pdf file through a journal or academic search engine, as is the case in the figure below:</p>
                     <figure>
-                        <img src="./images/illustrations/research4_image1.jpg">
+                        <img src="./images/illustrations/research4_image1.jpg" alt="Requesting Articles">
                         <figcaption>CAPTION NOT AVAILABLE</figcaption>
                     </figure>
 
                     <p>Clicking on the <b>Get Article</b> link will direct you to a page like this, where you will either be able to retrieve the article through another web site or where you will request the article through your myILL account.</p>
                     <figure>
-                        <img src="./images/illustrations/research4_image2.jpg">
+                        <img src="./images/illustrations/research4_image2.jpg" alt="How to Get Articles">
                         <figcaption>For this resource, the only option is to request the article through MyILL</figcaption>
                     </figure>
 
                     <p>Your myILL account requires a separate setup from your myIIT account, so you will need to register before you are able to request an article. Think of myILL as asking a friend to make a copy of an article for you, because that is essentially what you are doing. You will be notified by email when your article is ready to download, and you can log into myILL and view your page of delivered items. For more help requesting articles, see the Library FAQ and How-to Pages.</p>
                 </section>
 
-                <section>
-                    <h3 class="line"><br>Requesting a Book From Another Library</h3>
+                <section id="bookfromanotherlibrary">
+                    <h3 class="line" id="4b"><br>Requesting a Book From Another Library</h3>
                     <p>When searching for a book, it is best to begin by searching the IIT library system. If you are unsuccessful in finding the title you are looking for, next try to locate the book in <a href="https://i-share.carli.illinois.edu/">I-Share</a>. If I-Share yields no results, the next step is to search for your book in <a href="https://www.worldcat.org/">WorldCat</a>.</p>
                     <aside>
                         <h4>Being Realistic</h4>
@@ -157,13 +192,13 @@
                     <p>If you are confused when using any of the library systems, you can always refer back to the Library FAQ and How-to Pages which have a selection of tutorials explaining the step-by-step instructions for requesting resources.</p>
                 </section>
 
-                <section>
-                    <h3 class="line"><br>Case Study: Searching and Requesting Resources</h3>
+                <section id="casestudy2">
+                    <h3 class="line" id="4c"><br>Case Study: Searching and Requesting Resources</h3>
                     <p>Bridgette receives the articles that she has requested and reads through them. One of the resources that Jane finds quoted often in academic papers is the 1923 text <em>English for Engineers</em> written by S. A. Harbarger. She decides that this is a useful resource to examine for her project, and makes a note of the title, author, and year in her Google Docs list of resources that she is compiling. After a quick search in I-Share, she notices that it is available at the University of Illinois library in Chicago; she makes a note of this as well in her list of resources. Although she has to work on another project, she knows that she can easily come back to her research notes and resume work.</p>
                 </section>
             </div>
 
-            <div class="module">
+            <div class="module" id="5">
                 <h2>Local Libraries</h2>
                 <p>There are two types of local libraries that may contain your resources:</p>
                 <ul>
@@ -192,13 +227,13 @@
                 </section>
 
                 <section>
-                    <h3 class="line"><br>Case Study: Obtaining a Resource from an I-Share Library</h3>
+                    <h3 class="line" id="5a"><br>Case Study: Obtaining a Resource from an I-Share Library</h3>
                     <p>After finishing another project, Bridgette returns to her research paper on Tech Comm prior to World War II. She notices that she had made a note to obtain English for Engineers by S. A. Harbarger, but that was over a week ago and she now only has ten days left to finish her paper. She decides to reassess her research timeline and concludes that she has enough time to read, analyze, and incorporate important elements of this resource into her paper, but in order to do so, she must have the resource and begin working immediately.</p>
                     <p>Recognizing the need for an adjustment in the amount of time it takes her to obtain the resource, she decides to attempt to pick up the book herself from a local library. She sees a note she made that the book is available at the UIC library; since she has the title, author, local library, and call number, she is ready to proceed to the library. Prior to leaving, however, she checks the hours and policies of the UIC library on their website so she doesn't waste a trip.</p>
                 </section>
 
                 <section>
-                    <h3 class="line"><br>When to Use Local Library Resources Instead of Interlibrary Loan</h3>
+                    <h3 class="line" id="5b"><br>When to Use Local Library Resources Instead of Interlibrary Loan</h3>
                     <p>There are two situations where you should consider obtaining your resource through a local library rather than relying on interlibrary loan:</p>
                     <ol>
                         <li>You no longer have enough time to wait for an interlibrary loan book to be delivered</li>
@@ -209,10 +244,10 @@
                 </section>
             </div>
 
-            <div class="module">
+            <div class="module" id="6">
                 <h2>Internet Resources</h2>
                 <section>
-                    <h3 class="line">Some resources to consider</h3>
+                    <h3 class="line" id="6a">Some Resources to Consider</h3>
                     <p>If you can obtain the same resource online, why request it? Some resources that are available online include:</p>
                     <ul>
                         <li>Public domain writings</li>
@@ -223,7 +258,7 @@
                 </section>
 
                 <section>
-                    <h3 class="line"><br>Using Web Resources for Research</h3>
+                    <h3 class="line" id="6b"><br>Using Web Resources for Research</h3>
                     <p>Some web resources can help you find additional resources, such as the following:</p>
                     <ul>
                         <li><a href="https://scholar.google.com/schhp?hl=en">Google Scholar</a><br>Allows you to search for scholarly articles and view which articles are cited by other articles</li>
@@ -238,12 +273,12 @@
                 </section>
 
                 <section>
-                    <h3 class="line"><br>Case Study: Using Web Resources</h3>
+                    <h3 class="line" id="6c"><br>Case Study: Using Web Resources</h3>
                     <p>Near the completion of her research project, Bridgette starts to question some of the arguments in a central article in her paper, "The Rise of Technical Writing Instruction in America" by R.J. Connors (1982). She wants to see if other researchers have included atypical examples of technical writing instruction in their papers about the rise of Technical Communication as a discipline before World War II. Thinking that most articles written on this topic will have referenced Connors article, she types the title into Google Scholar. She notices that Connors' article has been cited 62 times. From there, she searches the articles that cite Connors' article for the examples she is looking for.</p>
                 </section>
             </div>
 
-            <div class="module">
+            <div class="module" id="7">
                 <h3 class="line">That's it!</h3>
                 <p>Hopefully you learned a little bit about conducting research and obtaining resources. Remember, if you start researching early enough, you are not limited to only those resources that you can find online. Now that you have read these suggestions for researching, please take a short quiz to help you retain some key points from this lesson.</p>
             </div>

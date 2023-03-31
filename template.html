@@ -8,7 +8,11 @@
     </head>
 
     <body>
-        <nav>
+        <header>
+            <h1>Research Paper Toolbox</h1>
+        </header>
+
+        <nav class="topnav">
             <ul>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./template.html">Topic</a></li>
@@ -21,30 +25,49 @@
                 <li><a href="./template.html">Professionalization</a></li>
             </ul>
         </nav>
-        
-        <header>
-            <h1>Research Paper Toolbox</h1>
-        </header>
+
+        <nav class="sidenav">
+            <ul class="topofnav">
+                <li><a href="#1">Introduction to Research</a></li>
+                <ul>
+                    <li><a href="#1a">Case Study: Doing Case Studies is Fun</a></li>
+                </ul>
+                <li><a href="#2" class="line2">Conducting Literature Reviews</a></li>
+                <ul>
+                    <li><a href="#2a">Literature is Great</a></li>
+                </ul>
+                <li><a href="#4" class="line2">Quiz</a></li>
+            </ul>
+        </nav>
 
         <main>
-            <div class="module">
+            <div class="module" id="1">
                 <h2>Introduction to Research</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac pharetra mauris. Sed ullamcorper, nulla nec ultrices tristique, erat lectus euismod tellus, vitae ultrices dolor mi ut tortor. Praesent convallis velit at tincidunt efficitur.</p>
 
                 <figure>
                     <img src="./images/illustrations/datalesson_fig2.png">
-                    <figcaption>Lorem ipsum.</figcaption>
+                    <figcaption>Lorem ipsum</figcaption>
                 </figure>
+
+                <aside>
+                    <h4>Being Realistic</h4>
+                    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac pharetra mauris. Sed ullamcorper, nulla nec ultrices tristique, erat lectus euismod tellus, vitae ultrices dolor mi ut tortor. Praesent convallis velit at tincidunt efficitur.</b>
+                </aside>
+
+                <h3 class="line" id="1a">Case Study: Doing Case Studies is Fun</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac pharetra mauris. Sed ullamcorper, nulla nec ultrices tristique, erat lectus euismod tellus, vitae ultrices dolor mi ut tortor. Praesent convallis velit at tincidunt efficitur.</p>
             </div>
 
-            <aside>
-                <h4>Being Realistic</h4>
-                <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac pharetra mauris. Sed ullamcorper, nulla nec ultrices tristique, erat lectus euismod tellus, vitae ultrices dolor mi ut tortor. Praesent convallis velit at tincidunt efficitur.</b>
-            </aside>
-
-            <div class="module">
+            <div class="module" id="2">
                 <h2>Conducting Literature Reviews</h2>
+                <h3 class="line" id="2a">Literature is Great</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac pharetra mauris. Sed ullamcorper, nulla nec ultrices tristique, erat lectus euismod tellus, vitae ultrices dolor mi ut tortor. Praesent convallis velit at tincidunt efficitur.</p>
+            </div>
+
+            <div class="module" id="3">
+                <h3 class="line">Test your knowledge</h3>
+                <p>Now that you've finished the lesson, please complete a short quiz to test your understanding of formatting research datasets for comprehensive statistical analysis.</p>
             </div>
         </main>
 

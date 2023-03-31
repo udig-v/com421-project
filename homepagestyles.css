@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+    
+
+/* Header styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+/* Navigation styles */
+nav {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main content styles */
+main {
+    margin: 20px;
+}
+
+
+/* Module styles */
+.module {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.module h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.module p {
+    margin: 10px 0;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
