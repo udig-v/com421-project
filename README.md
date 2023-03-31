@@ -1,2 +1,2 @@
 # com421-project
-The Research Paper Toolbox
+The Research Paper Toolbox by Varvara Bondarenko
