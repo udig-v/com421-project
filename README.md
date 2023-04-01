@@ -1,10 +1,10 @@
 # The Research Paper Toolbox
 by Varvara Bondarenko
 
-[Link to github repo](https://github.com/udig-v/com421-project.git) 
 
 ## Sitemap
 ![Sitemap](./images/illustrations/Sitemap.png)
+
 
 ## Self-Critique
 In this project, I chose to use a modular structure to make the text more easily readable. Each section of text is wrapped in a gray box, which makes it stand out and easier to find. However, I did face some challenges when it came to creating sidebars that looked good and aligned perfectly with the rest of the text. In the future, I would like to spend more time on this aspect and come up with a better solution.
